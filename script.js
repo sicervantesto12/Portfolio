@@ -4,7 +4,7 @@
   const rawItems = [
     [1,"Cute Rabbit","Emotes","https://sicervantesto12.github.io/IMAGESforportfolio/1.png",400],
     [2,"Cute Kaiju","Stickers","https://sicervantesto12.github.io/IMAGESforportfolio/2.png",400],
-    [3,"Seething Kaiju","Sticker","https://sicervantesto12.github.io/IMAGESforportfolio/3.png",400],
+    [3,"Seething Kaiju","Stickers","https://sicervantesto12.github.io/IMAGESforportfolio/3.png",400],
     [4,"Angery Rabbit","Emotes","https://sicervantesto12.github.io/IMAGESforportfolio/4.png",400],
     [5,"Saber","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/5.png",400],
     [6,"Mermaid","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/6.png",400],
@@ -17,15 +17,42 @@
     [13,"Ywuria's MV part 2","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/13.png",400],
     [14,"Ywuria's MV part 2","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/14.png",400],
     [15,"Ywuria's MV part 2","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/15.png",400],
-    
-    // [No:,"Your title here","Animation","PASTE_IMAGE_URL_HERE",400],
+    [16,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/16.png",400],
+    [17,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/17.png",400],
+    [18,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/18.png",400],
+    [19,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/19.png",400],
+    [20,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/20.png",400],
+    [21,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/21.png",400],
+    [22,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/22.png",400],
+    [23,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/23.png",400],
+    [24,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/24.png",400],
+    [25,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/25.png",400],
+    [26,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/26.png",400],
+    [27,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/27.png",400],
+    [28,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/28.png",400],
+    [29,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/29.png",400],
+    [30,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/30.png",400],
+    [31,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/31.png",400],
+    [32,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/32.png",400],
+    [33,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/33.png",400],
+    [34,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/34.png",400],
+    [35,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/35.png",400],
+    [36,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/36.png",400],
+    [37,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/37.png",400],
+    [38,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/38.png",400],
+    [39,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/39.png",400],
+    [40,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/40.png",400],
+    [41,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/41.png",400],
+    [42,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/42.png",400],
+    [43,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/43.png",400],
+    [44,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/44.png",400],
+    [45,"Your title here","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/45.png",400],
   ];
-
+ 
   const items = rawItems.map(([id,title,cat,src,h])=>({
     id, title, cat,
     src,
-    h,
-    saved:false
+    h
   }));
 
   const grid = document.getElementById('grid');
