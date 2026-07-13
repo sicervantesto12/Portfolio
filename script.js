@@ -1,6 +1,7 @@
 (function(){
-  const categories = ["All","Illustration","Logo","Poster","Ads","Character Design","Asset","Animation","Stickers","Emotes","Chibi"];
-const rawItems = [
+ const categories = ["All","Illustration","Logo","Poster","Ads","Character Design","Asset","Animation","Stickers","Emotes"];
+
+  const rawItems = [
     [1,"Cute Rabbit","Emotes","https://sicervantesto12.github.io/IMAGESforportfolio/1.png",400],
     [2,"Cute Kaiju","Stickers","https://sicervantesto12.github.io/IMAGESforportfolio/2.png",400],
     [3,"Seething Kaiju","Sticker","https://sicervantesto12.github.io/IMAGESforportfolio/3.png",400],
@@ -18,7 +19,8 @@ const rawItems = [
   const items = rawItems.map(([id,title,cat,src,h])=>({
     id, title, cat,
     src,
-    h
+    h,
+    saved:false
   }));
 
   const grid = document.getElementById('grid');
