@@ -1,27 +1,18 @@
 (function(){
-  const categories = ["All","Illustration","Logo","Poster","Ads","Character Design","Asset","Animation"];
-
-  // ---------------------------------------------------------------
-  // ADD YOUR IMAGES HERE.
-  // Each row is: [id, "Title", "Category", "Image URL", height]
-  //  - id: any unique number
-  //  - Title: shown on hover
-  //  - Category: must match one of the categories above (or add a new one there too)
-  //  - Image URL: a direct link to your image (e.g. your GitHub Pages link,
-  //               or a Google Drive link in the format:
-  //               https://drive.google.com/uc?export=view&id=YOUR_FILE_ID)
-  //  - height: roughly the image's pixel height, used for masonry layout
-  //            (a taller image = bigger number, doesn't need to be exact)
-  // ---------------------------------------------------------------
-  const rawItems = [
-    [1,"Fate Strange Night","Illustration","https://drive.google.com/uc?export=view&id=15inU-_wzjpg5dY6yx77i9hW6bbIvQoLM",420],
-    [2,"Lansir","Illustration","https://sicervantesto12.github.io/Portfolio/Lansir.png",420],
-    // [3,"Your title here","Logo","PASTE_IMAGE_URL_HERE",400],
-    // [4,"Your title here","Poster","PASTE_IMAGE_URL_HERE",400],
-    // [5,"Your title here","Ads","PASTE_IMAGE_URL_HERE",400],
-    // [6,"Your title here","Character Design","PASTE_IMAGE_URL_HERE",400],
-    // [7,"Your title here","Asset","PASTE_IMAGE_URL_HERE",400],
-    // [8,"Your title here","Animation","PASTE_IMAGE_URL_HERE",400],
+  const categories = ["All","Illustration","Logo","Poster","Ads","Character Design","Asset","Animation","Stickers","Emotes","Chibi"];
+const rawItems = [
+    [1,"Cute Rabbit","Emotes","https://sicervantesto12.github.io/IMAGESforportfolio/1.png",400],
+    [2,"Cute Kaiju","Stickers","https://sicervantesto12.github.io/IMAGESforportfolio/2.png",400],
+    [3,"Seething Kaiju","Sticker","https://sicervantesto12.github.io/IMAGESforportfolio/3.png",400],
+    [4,"Angery Rabbit","Emotes","https://sicervantesto12.github.io/IMAGESforportfolio/4.png",400],
+    [5,"Saber","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/5.png",400],
+    [6,"Mermaid","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/6.png",400],
+    [7,"Oh my Maomao","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/7.png",400],
+    [8,"solemn Butterfly","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/8.png",400],
+    [9,"Ywuria's MV","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/9.png",400],
+    [10,"Ywuria's MV part 2","Illustration","https://sicervantesto12.github.io/IMAGESforportfolio/10.png",400],
+    
+    // [No:,"Your title here","Animation","PASTE_IMAGE_URL_HERE",400],
   ];
 
   const items = rawItems.map(([id,title,cat,src,h])=>({
