@@ -1,5 +1,5 @@
 (function () {
-  const categories = ["All","Illustration","Logo","Poster","Ads","Character Design","Asset","Animation","Stickers","Emotes"];
+  const categories = ["All","Illustration","Logo","Poster","Ads","Character Design","Asset","Animation","Stickers","Emotes","Product Design","3D","Mock-ups"];
   const BASE_URL = "https://sicervantesto12.github.io/IMAGESforportfolio/";
   const DATA_URL = "data.json"; // sits next to this script — edit that file to add/change images
 
