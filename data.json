@@ -63,5 +63,12 @@
   { "file": "62.png", "title": "Anthoinette Design v1",             "cat": "Character Design", "tags": [] },
   { "file": "63.png", "title": "Anthoinette Design v2",             "cat": "Character Design", "tags": [] },
   { "file": "64.png", "title": "Anthoinette Design v3",             "cat": "Character Design", "tags": [] },
-  { "file": "65.png", "title": "Reirei Design",                     "cat": "Character Design", "tags": [] }
+  { "file": "65.png", "title": "Reirei Design",                     "cat": "Character Design", "tags": [] },
+  { "file": "10001.gif", "title": "Character Idle",                  "cat": "Asset", "tags": [] },
+  { "file": "10002.gif", "title": "Character Walk",                  "cat": "Asset", "tags": [] },
+  { "file": "10003.gif", "title": "Character Hurt",                  "cat": "Asset", "tags": [] },
+  { "file": "10004.gif", "title": "Character Jump",                       "cat": "Asset", "tags": [] },
+  { "file": "10005.gif", "title": "Character Death",             "cat": "Asset", "tags": [] },
+  { "file": "10005.gif", "title": "Character Death",             "cat": "Asset", "tags": [] },
+  { "file": "10006.gif", "title": "Boji Excalibur",             "cat": "Animation", "tags": [] }
 ]
